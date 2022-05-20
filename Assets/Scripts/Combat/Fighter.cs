@@ -12,7 +12,7 @@ namespace RPG.Combat
 
 
         Health target;
-        float timeSinceLastAttacked = 0;
+        float timeSinceLastAttacked = Mathf.Infinity;
 
         private void Update()
         {
